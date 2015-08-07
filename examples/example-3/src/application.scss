@@ -1,0 +1,9 @@
+@import "font-stacks";
+
+body, input, textarea {
+  color: #333;
+
+  // This variable is not defined within example-3;
+  // it is in examples/shared-sass-files/_font-stacks.scss
+  font-family: $sans-serif;
+}
