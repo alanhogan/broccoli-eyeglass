@@ -1,4 +1,4 @@
-var BroccoliEyeglass = require('broccoli-eyeglass'),
+var BroccoliEyeglass = require('../..'),
   mergeTrees = require('broccoli-merge-trees'),
   fooOutput,
   barOutput;
