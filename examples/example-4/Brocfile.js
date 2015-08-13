@@ -8,13 +8,9 @@ fooOutput = new BroccoliEyeglass(['foo'], {
   verbose: true
 });
 
-console.log("fooOutput", fooOutput);
-
 barOutput = new BroccoliEyeglass(['bar'], {
   cssDir: 'bar',
   verbose: true
 });
-
-console.log("barOutput", barOutput);
 
 module.exports = mergeTrees([fooOutput, barOutput]);
