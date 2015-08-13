@@ -1,0 +1,5 @@
+.bar {
+  &::after {
+    content: '|'; // Pipe character. A vertical bar.
+  }
+}
